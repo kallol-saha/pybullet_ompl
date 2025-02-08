@@ -14,7 +14,7 @@ except ImportError:
     from ompl import base as ob
     from ompl import geometric as og
 import pybullet as p
-import utils
+import pybullet_ompl.utils as utils
 import time
 from itertools import product
 import copy
